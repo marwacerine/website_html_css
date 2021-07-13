@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.navbar{
+    background-color: rgb(2, 2, 102);
+    color: aliceblue;
+    height: 100px;
+    padding-top: 20px;
+    
+}
+.navbar a{
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: rgba(255, 255, 255, 0.795);
+
+}
+
+.navbar ul { 
+    display: flex  ;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar .flex{
+justify-content: space-between;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+.flex{
+    display: flex;
+    /*flex-direction: row;*/
+    
+    align-items: center;
+    height: 100%;
+    
+}
+.open_kio_sec1 ,.open_kio_sec2{
+    
+    border-radius: 15px;
+    background-color: #fff;
+    color: rgb(2, 2, 102);
+}
+.open_kio_sec1 a:hover,.open_kio_sec2 a:hover{
+    color: rgba(2, 2, 102, 0.699);
+
+}
+.open_kio_sec1 a,.open_kio_sec2 a{
+    color: rgb(2, 2, 102);
+    display: flex;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+.intro {
+    background-color: rgb(2, 2, 102);
+    color: aliceblue;
+    height: 550px;
+    
+}
+.intro h1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 800;
+}
+.intro p{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
+.open_kio_sec2{
+    width: 23%;
+    padding-top:17px;padding-bottom: 17px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+#img1{
+    height: 370px;
+    float: left;
+    margin-top:-60px ;margin-left: 10px;
+    
+}
+#img2{
+    height: 370px;
+    float: right;
+    margin-top:-60px ;
+    margin-right: 10px;
+}
+
+
+/*section three*/
+.three{
+    background-color:rgb(243, 243, 243);
+    padding: 100px;
+}
+#img3{
+    height: 500px;
+}
+.parag_sec3{
+    width: 31%;
+    float: right;
+    padding-top: 130px;
+}
+.parag_sec3 h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.parag_sec3 p{
+    font-size: 18px;
+}
+/* section four*/
+.four{
+    background-color:rgb(224, 216, 241);
+    padding: 100px 20px 0 50px;
+    height: 700px;
+}
+#img4{
+    height: 500px;
+    float: right;
+}
+.parag_sec4{
+    width: 32%;
+    padding-top: 130px;
+}
+.parag_sec4 h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.parag_sec4 p{
+    font-size: 18px;
+}
+
+/*section five*/
+.five{
+    background-color:rgb(243, 243, 243);
+    padding: 100px;
+}
+#img5{
+    height: 500px;
+}
+.parag_sec5{
+    width: 33%;
+    float: right;
+    padding-top: 110px;
+}
+.parag_sec5 h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.parag_sec5 p{
+    font-size: 18px;
+}
+.demarrer{
+    margin-top: 125px;
+}
+.demarrer h1{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 800;
+}
+.open_kio_sec6{
+    width: 30%;
+    padding-top:17px;padding-bottom: 17px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.open_kio_sec6{
+    
+    border-radius: 22px;
+    color: #fff;
+    background-color: rgb(2, 2, 102);
+}
+.open_kio_sec6 a:hover{
+    color: rgba(2, 2, 102, 0.699);
+
+}
+.open_kio_sec6 a{
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+/* footer*/
+footer{
+    background-color:rgb(243, 243, 243);
+    width: auto;
+    overflow: hidden;
+}
+.footer{
+    background-color: rgb(2, 2, 102);
+    width: 180%;
+    margin-left: -515px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 350px;
+    padding-left:600px ;
+    padding-top: 100px;
+    color:#fff;
+    
+}
+.column {
+    float: left;
+    width: 20%;
+  }
+.row{
+    margin-left:800px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.parag_secfooter{
+    width: 25%;
+    float: left;
+}
+.column li{
+    list-style: none;
+    padding: 5px;
+}
+.column a:hover{
+    color: rgba(255, 255, 255, 0.788);
+}
+.copyright{
+    border-top: 0.5px #fff solid;
+    width: 65%;
+    padding-top: 20px;
+}
+.socialmedia{
+    
+    float: right;
+}
+.socialmedia a{
+    padding-right: 10px;
+}
